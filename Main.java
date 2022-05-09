@@ -4,7 +4,9 @@ public class Main {
         
         //? Create a new file
         ManageFile productFile = new ManageFile("product");
-        // ManageFile sellerFile = new ManageFile("seller");
+        // ManageFile sellerFile = new ManageFile("customer");
+                                                              // custom type file         
+        // ManageFile sellerFile = new ManageFile("seller", "txt");
     
         //? product
         String[] dataArr = {"1", "Hu", "hu", "hu"};
@@ -28,8 +30,10 @@ public class Main {
             System.out.println();
         }
 
+
         //? edit data to product
-        dataProduct[0][1] = "HuHaHe";
+        dataProduct[0][1] = "HuHaHe";        
+        //? updateDataInFile 
         productFile.writeDataNewToFile(dataProduct);
 
 
