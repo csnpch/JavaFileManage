@@ -7,14 +7,14 @@
 #### contructor parameter
 (nameFile)
 (nameFile, typeFile)
-- example to keep values:  ManageFile [variable] = new ManageFile(...);
+- example to keep values:  ManageFile [variable] = new ManageFile(..1.or.2.agrs..);
 
 <br><br>
 #### InsertData by Array or String
-String[] strData = {"val1", "val2", "val3"}
-- example -> [variable].writeDataByArr(strData)
+- String[] strData = {"val1", "val2", "val3"}
+array -> [variable].writeDataByArr(strData)
 <br>
-[variable].writeDataByStr("val1, val2, ...")
+string -> [variable].writeDataByStr("val1, val2, ...")
 
 
 <br><br>
