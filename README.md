@@ -7,12 +7,12 @@
 #### contructor parameter
 - (nameFile)
 - (nameFile, typeFile)
-      -  example to keep values:  ManageFile [variable] = new ManageFile(...);
+      example to keep values:  ManageFile [variable] = new ManageFile(...);
 
 
 #### InsertData or Push
 - String[] strData = {"val1", "val2", "val3"}
-          - example -> [variable].writeDataByArr(strData)
+      example -> [variable].writeDataByArr(strData)
 - [variable].writeDataByStr("val1, val2, ...")
 
 
