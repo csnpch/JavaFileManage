@@ -19,7 +19,7 @@ string -> [variable].writeDataByStr("val1, val2, ...")
 
 <br><br>
 #### ClearDataInFile and Insert New for update data or delete in variable local
-[variable].writeDataNewToFile(data)
+[variable].writeDataNewToFile(data) : void String[][]
 
 <br><br>
 #### getData
