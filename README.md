@@ -7,7 +7,7 @@
 #### contructor parameter
 (nameFile)
 (nameFile, typeFile)
-example to keep values:  ManageFile [variable] = new ManageFile(...);
+- example to keep values:  ManageFile [variable] = new ManageFile(...);
 
 
 #### InsertData by Array or String
