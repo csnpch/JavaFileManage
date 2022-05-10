@@ -10,10 +10,12 @@
 example to keep values:  ManageFile [variable] = new ManageFile(...);
 
 
-#### InsertData or Push
+#### InsertData by Array or String
 String[] strData = {"val1", "val2", "val3"}
 - example -> [variable].writeDataByArr(strData)
+
 [variable].writeDataByStr("val1, val2, ...")
+
 
 
 #### ClearDataInFile and Insert New for update data or delete in variable local
