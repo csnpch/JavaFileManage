@@ -31,5 +31,5 @@ getData() : void
 
 <br><br>
 #### Example value in file
-1,SomeValue,9999,244
+1,SomeValue,9999,244<br>
 2,SomeValu2,8888,442
