@@ -26,3 +26,6 @@ string -> [variable].writeDataByStr("val1, val2, ...")
 getData() : void 
 - example to keep values:  String[][] nameVal = [variable].getData();
 
+#### Example value in file
+1,SomeValue,9999,244
+2,SomeValu2,8888,442
