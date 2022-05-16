@@ -33,5 +33,6 @@ getData() : void
 #### Example value in file (no encode) 
 1,SomeValue,9999,244<br>
 2,SomeValu2,8888,442
+<br><br>
 if use manual insert data to file 
 you should uncomment return encode, decode function ;-; 
