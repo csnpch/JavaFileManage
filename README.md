@@ -30,6 +30,8 @@ getData() : void
 - example to keep values:  String[][] nameVal = [variable].getData();
 
 <br><br>
-#### Example value in file
+#### Example value in file (no encode) 
 1,SomeValue,9999,244<br>
 2,SomeValu2,8888,442
+if use manual insert data to file 
+you should uncomment return encode, decode function ;-; 
