@@ -4,14 +4,14 @@
 #### Your can look example how to use in ----> Main.java
 
 
-<br>
+<br><br>
 #### contructor parameter
 (nameFile)
 (nameFile, typeFile)
 - example to keep values:  ManageFile [variable] = new ManageFile(..1.or.2.agrs..);
 
 
-<br>
+<br><br>
 #### InsertData by Array or String
 - String[] strData = {"val1", "val2", "val3"}
 array -> [variable].writeDataByArr(strData)
@@ -19,17 +19,17 @@ array -> [variable].writeDataByArr(strData)
 string -> [variable].writeDataByStr("val1, val2, ...")
 
 
-<br>
+<br><br>
 #### ClearDataInFile and Insert New for update data or delete in variable local
 [variable].writeDataNewToFile(data) : void String[][]
 
 
-<br>
+<br><br>
 #### getData
 getData() : void 
 - example to keep values:  String[][] nameVal = [variable].getData();
 
-<br>
+<br><br>
 #### Example value in file
 1,SomeValue,9999,244
 2,SomeValu2,8888,442
