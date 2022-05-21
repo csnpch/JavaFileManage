@@ -228,7 +228,9 @@ public class ManageFile {
 
             String line = "";
             for (int c = 0; c < data[r].length; c++) {
-                line += data[r][c] + ",";
+                if (data[r][c].equal("")) {
+                    line += data[r][c] + ",";
+                }
             }
             line = line.substring(0, line.length() - 1);
             writeDataByStr(line);
