@@ -239,7 +239,7 @@ public class ManageFile {
 
             String line = "";
             for (int c = 0; c < data[r].length; c++) {
-                if (data[r][c].equal("")) {
+                if (data[r][c].equals("")) {
                     line += data[r][c] + ",";
                 }
             }
