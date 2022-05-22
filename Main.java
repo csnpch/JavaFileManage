@@ -33,9 +33,14 @@ public class Main {
 
         //? edit data to product
         dataProduct[0][1] = "HuHaHe";        
+        
+        //? delete product rows ?         
+        dataProduct[2][0] = "";
+        dataProduct[2][1] = "";
+        dataProduct[2][2] = "";
+        
         //? updateDataInFile 
-        productFile.writeDataNewToFile(dataProduct);
-
+        productFile.writeDataNewToFile(dataProduct);     
 
         //? customer
         // customerFile.writeDataByStr("So, la, su");
