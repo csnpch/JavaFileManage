@@ -13,8 +13,9 @@ public class ManageFile {
     private int indexData = 0;
     private String fileName = new String(""); 
     private String typeName = new String("md");
+    private String pathFolder = new String("data");
 
-
+    
     public ManageFile() {
         if (this.fileName.isEmpty()) {
             System.out.println("\n\nParameter file name is empty!\n\n");
@@ -32,6 +33,15 @@ public class ManageFile {
     public ManageFile(String name, String type) { 
         this.fileName = name;
         this.typeName = type;
+        checkDirectory();
+        createFile(); 
+    }
+    
+    
+    public ManageFile(String name, String type, String pathFolder) { 
+        this.fileName = name;
+        this.typeName = type;
+        this.pathFolder = pathFolder;
         checkDirectory();
         createFile(); 
     }
@@ -68,7 +78,7 @@ public class ManageFile {
 
     public void clearFile() {
 
-        File file = new File("./data/" + this.fileName + "." + this.typeName);
+        File file = new File("./" + this.pathFolder + "/" + this.fileName + "." + this.typeName);
         try {
             file.delete();
         } catch (Exception e) {
@@ -106,7 +116,7 @@ public class ManageFile {
                 clearData();
             }
         
-            File myObj = new File("./data/"+ this.fileName + "." + this.typeName);
+            File myObj = new File("./" + this.pathFolder + "/"+ this.fileName + "." + this.typeName);
             Scanner myReaderForCount = new Scanner(myObj);
             Scanner myReaderForData = new Scanner(myObj);
 
@@ -146,7 +156,7 @@ public class ManageFile {
     public void createFile() {
         try {
 
-            File myObj = new File("./data/" + this.fileName + "." + this.typeName);
+            File myObj = new File("./" + this.pathFolder + "/" + this.fileName + "." + this.typeName);
             
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
@@ -180,7 +190,7 @@ public class ManageFile {
 
             val = getEncoded(val);
             
-            File myObj = new File("./data/" + this.fileName + "." + this.typeName);
+            File myObj = new File("./" + this.pathFolder + "/" + this.fileName + "." + this.typeName);
             FileWriter myWriter = new FileWriter(myObj, true);
             BufferedWriter buffer = new BufferedWriter(myWriter);
             buffer.write(val);
