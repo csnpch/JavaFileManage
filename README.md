@@ -36,3 +36,4 @@ getData() : void
 <br><br>
 if use manual insert data to file 
 you should uncomment return encode, decode function ;-; 
+
