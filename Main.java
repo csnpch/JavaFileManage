@@ -42,6 +42,7 @@ public class Main {
         //? updateDataInFile 
         productFile.writeDataNewToFile(dataProduct);     
 
+        
         //? customer
         // customerFile.writeDataByStr("So, la, su");
         // customerFile.writeDataByStr("Su, la, so");
