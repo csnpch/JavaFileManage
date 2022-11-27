@@ -1,6 +1,6 @@
 # JavaFileManage
 ### Easy to use file by Class ManageFile :)
-#### For mini file eg. -> (.txt, .md)
+#### For manage mini file eg. -> (.txt, .md)
 #### Your can look example how to use in ----> Main.java
 
 
